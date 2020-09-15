@@ -1,7 +1,7 @@
 TARGET   = tcp_server
 
 CC       = gcc
-CFLAGS   = -std=c11 -Wall -Wextra -g -DLOG_USE_COLOR
+CFLAGS   = -std=gnu99 -Wall -Wextra -g -DLOG_USE_COLOR
 
 LINKER   = gcc
 LFLAGS   =
