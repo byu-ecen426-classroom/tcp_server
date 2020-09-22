@@ -15,7 +15,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#define TCP_SERVER_DEFAULT_PORT "8080"
+#define TCP_SERVER_DEFAULT_PORT "8083"
 #define TCP_SERVER_BAD_SOCKET -1
 #define TCP_SERVER_BACKLOG 10
 #define TCP_SERVER_ERROR_MESSAGE "error"
