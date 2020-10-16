@@ -59,8 +59,9 @@ int tcp_server_accept(int socket);
 // error occurs, return an empty request and this function will free any allocated resources.
 Request tcp_server_receive_request(int socket);
 
-// Sends the provided Response struct on the provided client socket.
-void tcp_server_send_response(int socket, Response response);
+// Sends the provided Response struct on the provided client socket. Return 1 (EXIT_FAILURE) if an
+// error occurs, otherwise return 0 (EXIT_SUCCESS).
+int tcp_server_send_response(int socket, Response response);
 
 // Closes the provided client socket and cleans up allocated resources.
 void tcp_server_client_cleanup(int socket, Request request, Response response);
