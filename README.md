@@ -1,3 +1,3 @@
-# Lab 4
+# TCP Server
 
-http://ecenetworking.byu.edu/493r/labs/lab-4/
+https://ecenetworking.byu.edu/426/labs/tcp-server/
